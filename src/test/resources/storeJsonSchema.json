@@ -1,0 +1,105 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "debug": {
+      "type": "string"
+    },
+    "window": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "width": {
+          "type": "number"
+        },
+        "height": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "title",
+        "name",
+        "width",
+        "height"
+      ]
+    },
+    "image": {
+      "type": "object",
+      "properties": {
+        "src": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "hOffset": {
+          "type": "number"
+        },
+        "vOffset": {
+          "type": "number"
+        },
+        "alignment": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "src",
+        "name",
+        "hOffset",
+        "vOffset",
+        "alignment"
+      ]
+    },
+    "text": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "string"
+        },
+        "size": {
+          "type": "number"
+        },
+        "style": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "hOffset": {
+          "type": "number"
+        },
+        "vOffset": {
+          "type": "number"
+        },
+        "alignment": {
+          "type": "string"
+        },
+        "onMouseUp": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "data",
+        "size",
+        "style",
+        "name",
+        "hOffset",
+        "vOffset",
+        "alignment",
+        "onMouseUp"
+      ]
+    }
+  },
+  "required": [
+    "debug",
+    "window",
+    "image",
+    "text"
+  ]
+}

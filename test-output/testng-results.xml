@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-22T21:56:34 EST" name="Default suite" finished-at="2023-01-22T21:56:37 EST" duration-ms="3145">
+  <suite started-at="2023-01-30T15:05:37 EST" name="Default suite" finished-at="2023-01-30T15:05:38 EST" duration-ms="1903">
     <groups>
     </groups>
-    <test started-at="2023-01-22T21:56:34 EST" name="Default test" finished-at="2023-01-22T21:56:37 EST" duration-ms="3145">
-      <class name="day5.testXMLResponse">
-        <test-method signature="testResponseWithXML_2()[pri:0, instance:day5.testXMLResponse@581ac8a8]" started-at="2023-01-22T21:56:34 EST" name="testResponseWithXML_2" finished-at="2023-01-22T21:56:36 EST" duration-ms="2382" status="PASS">
+    <test started-at="2023-01-30T15:05:37 EST" name="Default test" finished-at="2023-01-30T15:05:38 EST" duration-ms="1903">
+      <class name="day6.JSONSchemaValidation">
+        <test-method signature="jsonSchemaValidation()[pri:0, instance:day6.JSONSchemaValidation@7fee8714]" started-at="2023-01-30T15:05:37 EST" name="jsonSchemaValidation" finished-at="2023-01-30T15:05:38 EST" duration-ms="1863" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testResponseWithXML_2 -->
-        <test-method signature="testResponseWithXML_3()[pri:0, instance:day5.testXMLResponse@581ac8a8]" started-at="2023-01-22T21:56:36 EST" name="testResponseWithXML_3" finished-at="2023-01-22T21:56:37 EST" duration-ms="719" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testResponseWithXML_3 -->
-      </class> <!-- day5.testXMLResponse -->
+        </test-method> <!-- jsonSchemaValidation -->
+      </class> <!-- day6.JSONSchemaValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

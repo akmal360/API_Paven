@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.538 s <<< FAILURE! - in TestSuite
-testHeaders4(day3.HeaderTest)  Time elapsed: 0.042 s  <<< FAILURE!
-java.net.ConnectException: Connection refused (Connection refused)
-	at day3.HeaderTest.testHeaders4(HeaderTest.java:65)
-
